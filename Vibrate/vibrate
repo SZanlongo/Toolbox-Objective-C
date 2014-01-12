@@ -1,0 +1,2 @@
+//Make the device vibrate:
+AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);

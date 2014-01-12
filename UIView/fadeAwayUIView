@@ -1,0 +1,5 @@
+//Fade away a UIView by animating the alpha down to 0:
+[UIView beginAnimations:nil context:NULL];
+[UIView setAnimationDuration:1];  // fade away over 1 seconds
+[aView setAlpha:0]; 
+[UIView commitAnimations]; 

@@ -1,0 +1,1 @@
+[thankYouTextView setFont:[UIFont fontWithName:@"Helvetica" size:16]];

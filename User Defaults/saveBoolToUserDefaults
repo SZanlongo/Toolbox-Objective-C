@@ -1,0 +1,2 @@
+//Save bool to User Defaults
+[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"Yes Bool"];

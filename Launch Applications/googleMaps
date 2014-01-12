@@ -1,0 +1,3 @@
+//Open Google Maps app with directions between two lat/long points
+NSString *urlString = [NSString stringWithFormat:@"http://maps.google.com/maps?saddr=%f,%f&daddr=%f,%f&dirflg=d", start.latitude, start.longitude, finish.latitude, finish.longitude];
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]]; 

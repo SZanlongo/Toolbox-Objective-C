@@ -1,0 +1,4 @@
+//Check to make sure an objects support a method before calling it:
+if ([item respondsToSelector:@selector(activateBOP:)]) {
+    [item activateBOP:closeBOP];
+}

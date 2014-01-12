@@ -1,0 +1,2 @@
+//Change the style of the navigation bar (from in a view controller):
+self.navigationController.navigationBar.barStyle = UIBarStyleBlack;

@@ -1,0 +1,2 @@
+//Open the Messages app with a specific phone number:
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"sms:123456789"]];

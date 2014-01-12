@@ -1,0 +1,2 @@
+//Launch the Apple Mail
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://mymail@myserver.com"]];

@@ -1,0 +1,3 @@
+//Get the path to the Documents folder:
+NSArray*  paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
+NSString* documentsDirectory = [paths objectAtIndex:0];

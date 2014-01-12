@@ -1,0 +1,2 @@
+//Copy a file from x to y
+[[NSFileManager defaultManager] copyItemAtPath:x toPath:y error:nil];

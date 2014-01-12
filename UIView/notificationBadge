@@ -1,0 +1,2 @@
+//red notification badge on app
+[UIApplication sharedApplication].applicationIconBadgeNumber = 10;

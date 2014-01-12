@@ -1,0 +1,2 @@
+//Display a new view
+[self presentModalViewController:(UIViewController *) animated:YES];

@@ -1,0 +1,5 @@
+//stop responding to touch events
+[[UIApplication sharedApplication] beginIgnoringInteractionEvents];
+
+//activate the touch events
+[[UIApplication sharedApplication] endIgnoringInteractionEvents];

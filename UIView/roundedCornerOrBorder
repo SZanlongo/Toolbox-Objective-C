@@ -1,0 +1,4 @@
+//Add rounded corners and/or a border around any UIView item (self)
+self.layer.borderColor  = [UIColor whiteColor].
+self.layer.cornerRadius = 8;     // rounded corners
+self.layer.masksToBounds = YES;  // prevent drawing outside border

@@ -1,0 +1,8 @@
+//Change the title on the back button on a UINavigationView.
+//Use this code on the UINavigationController before pushing the view
+
+UIBarButtonItem *backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style: UIBarButtonItemStyleBordered target:nil action:nil];
+
+
+self.navigationItem.backBarButtonItem = backBarButtonItem;
+[backBarButtonItem release];

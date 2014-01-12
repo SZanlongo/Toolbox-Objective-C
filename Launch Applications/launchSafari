@@ -1,0 +1,2 @@
+//Open an URL in Safari
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.google.com/"]];

@@ -1,0 +1,3 @@
+//Screen touches method
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {}

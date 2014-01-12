@@ -1,0 +1,2 @@
+//Push another view controller onto the Navigation Bar:
+[self.navigationController pushViewController:anotherVC animated:YES];

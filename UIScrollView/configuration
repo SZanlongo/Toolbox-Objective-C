@@ -1,0 +1,2 @@
+[scrollView setScrollEnabled:YES];
+[scrollView setContentSize:CGSizeMake(320, 1400)];

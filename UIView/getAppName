@@ -1,0 +1,2 @@
+//Get the name of the app
+self.title = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];

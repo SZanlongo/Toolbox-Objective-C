@@ -1,0 +1,1 @@
+self.navigationItem.hidesBackButton = YES;

@@ -1,0 +1,7 @@
+//Save a NSString into NSUserDefaults:
+NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+[defaults setObject:loginName forKey:kUserLoginName];
+
+//Get an NSString from NSUserDefaults:
+NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+NSString* loginName = [defaults stringForKey:kUserLoginName];

@@ -1,0 +1,2 @@
+UIImage *tabBarBackground = [UIImage imageNamed:@"TabBarOverlay.png"];
+[rootController.tabBar setBackgroundImage:tabBarBackground];

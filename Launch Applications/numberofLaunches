@@ -1,0 +1,10 @@
+NSUserDefaults *countDefaults;
+int launchCount;
+
+countDefaults = [NSUserDefaults standardUserDefaults];
+launchCount = [countDefaults integerForKey:@"launchCount" ] + 1;
+[countDefaults setInteger:launchCount forKey:@"launchCount"];
+[countDefaults synchronize];
+
+
+NSLog(@"Launch number: %i", launchCount);

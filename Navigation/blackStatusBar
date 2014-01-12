@@ -1,0 +1,2 @@
+//Change the status bar to black
+[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];

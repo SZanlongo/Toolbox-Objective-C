@@ -1,0 +1,2 @@
+//Dial a Phone Number (iPhone Only)
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://9662256888"]];

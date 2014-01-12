@@ -1,0 +1,5 @@
+//Show the network Activity Indicator
+[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+
+//Hide the network Activity Indicator
+[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;

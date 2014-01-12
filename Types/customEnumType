@@ -1,0 +1,4 @@
+//Own enum type:
+typedef enum {
+    a = 0, b = 1, c = 2
+} enumName;

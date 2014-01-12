@@ -1,0 +1,3 @@
+//Get Current Date and time:
+NSCalendar *gregorian = [NSCalendar currentCalendar];
+NSDateComponents *dateComponents = [gregorian components:(NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit) fromDate:[NSDate date]];

@@ -1,0 +1,3 @@
+//Quartz draw arc
+CGContextRef ctxt = UIGraphicsGetCurrentContext();
+CGContextAddArc(ctxt, x, y, radius, startDeg, endDeg);

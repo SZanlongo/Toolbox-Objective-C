@@ -1,0 +1,2 @@
+//Log the name of the class and function:
+NSLog(@"%s", __PRETTY_FUNCTION__);

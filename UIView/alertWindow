@@ -1,0 +1,3 @@
+//Display an alert window:
+UIAlertView* alert = [[[UIAlertView alloc] initWithTitle:@"Warning" message:@"too many alerts" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+[alert show] 
